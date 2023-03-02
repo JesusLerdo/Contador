@@ -4,17 +4,17 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div align="center" className="mt-3">
     <h3>Contador</h3>
     <h1 />
-    <h1>{count}</h1>
+    <h1 className="mb-3">{count}</h1>
     <button 
     onClick={() => {
     setCount(count + 1);
     
     }}
     type="button"
-    className="btn btn-primary"
+    className="btn btn-primary m-1"
     >+1</button>
 
    <button 
@@ -23,7 +23,7 @@ function App() {
     
     }}
     type="button"
-    className="btn btn-dark"
+    className="btn btn-dark m-1"
     >-1</button>
 
    <button 
@@ -32,7 +32,7 @@ function App() {
     
     }}
     type="button"
-    className="btn btn-Light"
+    className="btn btn-Light m-1"
     >0</button>
 
     
